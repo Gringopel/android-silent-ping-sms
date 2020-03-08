@@ -11,4 +11,7 @@
     <string name="title_history">история:</string>
     <string name="storage_description">Длинный контакт для копирования</string>
     <string name="result_pdu_details">Result PDU details</string>
+    <string name="pick_delete_history">очистить историю</string>
+    <string name="pick_receive_ping_data">Получать сообщения с данными Ping</string>
+    <string name="pick_data_messages_storage">Сохраненные сообщения данных</string>
 </resources>

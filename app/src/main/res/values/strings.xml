@@ -8,6 +8,9 @@
     <string name="notsent">FAILED TO SEND REQUEST</string>
     <string name="pick_contact">Pick Phone from Contacts</string>
     <string name="pick_contact_failed">Failed to select contact</string>
+    <string name="pick_delete_history">Pick Delete Histoy</string>
+    <string name="pick_receive_ping_data">Receive Ping (Data) Messages</string>
+    <string name="pick_data_messages_storage">Data Messages Storage</string>
     <string name="title_history">History:</string>
     <string name="storage_description">Long-touch row to copy contents into clipboard</string>
     <string name="result_pdu_details">Result PDU details</string>

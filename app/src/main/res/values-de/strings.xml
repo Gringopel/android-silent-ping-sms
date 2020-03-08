@@ -11,4 +11,7 @@
     <string name="title_history">Verlauf:</string>
     <string name="storage_description">Klicke lange, um Inhalt zu kopieren</string>
     <string name="result_pdu_details">PDU Ergebisdetails</string>
+    <string name="pick_delete_history">klare Geschichte</string>
+    <string name="pick_receive_ping_data">Empfangen Sie Nachrichten mit Ping-Daten</string>
+    <string name="pick_data_messages_storage">Gespeicherte Datennachrichten</string>
 </resources>

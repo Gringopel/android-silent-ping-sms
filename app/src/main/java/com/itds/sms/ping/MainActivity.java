@@ -195,17 +195,17 @@ public final class MainActivity extends AppCompatActivity {
         }
         clearHistory = menu.findItem(MENU_ITEM_CLEAR_HISTORY);
         if (clearHistory == null) {
-            clearHistory = menu.add(Menu.NONE, MENU_ITEM_CLEAR_HISTORY, Menu.NONE, "Clear history")
+            clearHistory = menu.add(Menu.NONE, MENU_ITEM_CLEAR_HISTORY, Menu.NONE, R.string.pick_delete_history)
                     .setIcon(android.R.drawable.ic_menu_close_clear_cancel).setShowAsActionFlags(MenuItem.SHOW_AS_ACTION_IF_ROOM);
         }
         receiveDataSms = menu.findItem(MENU_ITEM_RECEIVE_DATA_SMS);
         if (receiveDataSms == null) {
-            receiveDataSms = menu.add(Menu.NONE, MENU_ITEM_RECEIVE_DATA_SMS, Menu.NONE, "Receive Ping (Data) Messages")
+            receiveDataSms = menu.add(Menu.NONE, MENU_ITEM_RECEIVE_DATA_SMS, Menu.NONE, R.string.pick_receive_ping_data)
                     .setCheckable(true).setShowAsActionFlags(MenuItem.SHOW_AS_ACTION_IF_ROOM);
         }
         receivedStorage = menu.findItem(MENU_ITEM_RECEIVED_STORAGE);
         if (receivedStorage == null) {
-            receivedStorage = menu.add(Menu.NONE, MENU_ITEM_RECEIVED_STORAGE, Menu.NONE, "Data Messages Storage")
+            receivedStorage = menu.add(Menu.NONE, MENU_ITEM_RECEIVED_STORAGE, Menu.NONE, R.string.pick_data_messages_storage)
                     .setIcon(android.R.drawable.ic_menu_agenda).setShowAsActionFlags(MenuItem.SHOW_AS_ACTION_IF_ROOM);
         }
         return super.onCreateOptionsMenu(menu);
